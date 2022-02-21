@@ -1,0 +1,865 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Japanese Names Translation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1>Japanese Names Translator</h1>
+						<p>An machine translation for Japanese names<br />
+						based on a<a href="https://github.com/namsor/japanese-names-trans">PyTorch / OpenNMT model</a> or as an <a href="https://namsor.app/api-documentation.html#namsor-api-japanese">Open API</a>.</p>
+					</header>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introduction to Japanese names translation</a></li>
+							<li><a href="#first">Japanese surnames</a></li>
+							<li><a href="#second">Japanese given names</a></li>
+							<li><a href="#cta">Get Started</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Translating Japanese names</h2>
+										</header>
+										<p>Romanization of Japanese names is easy, but translating a Japanese name back to its original form with the correct probabilities is hard. There are many Kanji variants for a single Japanese name in its romanized form.</p>
+										<ul class="actions">
+											<li><a href="generic.html" class="button">Learn More</a></li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Japanese surnames</h2>
+									<p>This table is misleading, as one romanized name doesn't corresponds exactly <br />
+									to one Japanese name in Kanji - there can be many variants.</p>									
+								</header>
+<table class="multicol" role="presentation" style="border-collapse: collapse; padding: 0; border: 0; background:transparent; width:auto;">
+
+<tbody><tr>
+<td style="text-align: left; vertical-align: top;">
+<table class="wikitable" style="text-align: center;">
+
+<tbody><tr>
+<th>Rank
+</th>
+<th>Name
+</th>
+<th><a href="/wiki/Romanization_of_Japanese" title="Romanization of Japanese">Romanization</a>
+</th>
+<th>Estimated Number<br><span style="font-size:85%;">(2008)</span>
+</th>
+<th>Occupation Rate<br><span style="font-size:85%;">(%)</span>
+</th></tr>
+<tr>
+<td>1
+</td>
+<td>佐藤
+</td>
+<td><a href="/wiki/Sat%C5%8D" title="Satō">Satō</a>
+</td>
+<td align="right">1,990,000
+</td>
+<td>1.57
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>鈴木
+</td>
+<td><a href="/wiki/Suzuki_(surname)" title="Suzuki (surname)">Suzuki</a>
+</td>
+<td align="right">1,900,000
+</td>
+<td>1.50
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>高橋
+</td>
+<td><a href="/wiki/Takahashi" title="Takahashi">Takahashi</a>
+</td>
+<td align="right">1,470,000
+</td>
+<td>1.16
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>田中
+</td>
+<td><a href="/wiki/Tanaka" title="Tanaka">Tanaka</a>
+</td>
+<td align="right">1,340,000
+</td>
+<td>1.06
+</td></tr>
+<tr>
+<td>5
+</td>
+<td>渡辺
+</td>
+<td><a href="/wiki/Watanabe" title="Watanabe">Watanabe</a>
+</td>
+<td align="right">1,200,000
+</td>
+<td>0.95
+</td></tr>
+<tr>
+<td>6
+</td>
+<td>伊藤
+</td>
+<td><a href="/wiki/It%C5%8D_(surname)" title="Itō (surname)">Itō</a>
+</td>
+<td align="right">1,150,000
+</td>
+<td>0.91
+</td></tr>
+<tr>
+<td>7
+</td>
+<td>中村
+</td>
+<td><a href="/wiki/Nakamura_(surname)" title="Nakamura (surname)">Nakamura</a>
+</td>
+<td align="right">1,080,000
+</td>
+<td>0.85
+</td></tr>
+<tr>
+<td>8
+</td>
+<td>小林
+</td>
+<td><a href="/wiki/Kobayashi" title="Kobayashi">Kobayashi</a>
+</td>
+<td align="right">1,060,000
+</td>
+<td>0.84
+</td></tr>
+<tr>
+<td>9
+</td>
+<td>山本
+</td>
+<td><a href="/wiki/Yamamoto" title="Yamamoto">Yamamoto</a>
+</td>
+<td align="right">1,020,000
+</td>
+<td>0.81
+</td></tr>
+<tr>
+<td>10
+</td>
+<td>加藤
+</td>
+<td><a href="/wiki/Kat%C5%8D_(surname)" title="Katō (surname)">Katō</a>
+</td>
+<td align="right">920,000
+</td>
+<td>0.73
+</td></tr>
+<tr>
+<td>11
+</td>
+<td>吉田
+</td>
+<td><a href="/wiki/Yoshida" title="Yoshida">Yoshida</a>
+</td>
+<td align="right">850,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>12
+</td>
+<td>山田
+</td>
+<td><a href="/wiki/Yamada" title="Yamada">Yamada</a>
+</td>
+<td align="right">820,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>13
+</td>
+<td>佐々木
+</td>
+<td><a href="/wiki/Sasaki" title="Sasaki">Sasaki</a>
+</td>
+<td align="right">710,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>14
+</td>
+<td>山口
+</td>
+<td><a href="/wiki/Yamaguchi_(surname)" title="Yamaguchi (surname)">Yamaguchi</a>
+</td>
+<td align="right">640,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>15
+</td>
+<td>松本
+</td>
+<td><a href="/wiki/Matsumoto_(surname)" title="Matsumoto (surname)">Matsumoto</a>
+</td>
+<td align="right">630,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>16
+</td>
+<td>井上
+</td>
+<td><a href="/wiki/Inoue" title="Inoue">Inoue</a>
+</td>
+<td align="right">600,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>17
+</td>
+<td>木村
+</td>
+<td><a href="/wiki/Kimura" title="Kimura">Kimura</a>
+</td>
+<td align="right">580,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>18
+</td>
+<td>清水
+</td>
+<td><a href="/wiki/Shimizu_(surname)" title="Shimizu (surname)">Shimizu</a>
+</td>
+<td align="right">560,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>19
+</td>
+<td>林
+</td>
+<td><a href="/wiki/Hayashi" title="Hayashi">Hayashi</a>
+</td>
+<td align="right">550,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>20
+</td>
+<td>斉藤
+</td>
+<td><a href="/wiki/Sait%C5%8D" title="Saitō">Saitō</a>
+</td>
+<td align="right">530,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>21
+</td>
+<td>斎藤
+</td>
+<td><a href="/wiki/Sait%C5%8D" title="Saitō">Saitō</a>
+</td>
+<td align="right">520,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>22
+</td>
+<td>山崎
+</td>
+<td><a href="/wiki/Yamazaki" title="Yamazaki">Yamazaki</a><br><a href="/wiki/Yamasaki_(surname)" class="mw-redirect" title="Yamasaki (surname)">Yamasaki</a>
+</td>
+<td align="right">490,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>23
+</td>
+<td>中島
+</td>
+<td><a href="/wiki/Nakajima_(surname)" title="Nakajima (surname)">Nakajima</a><br>Nakashima
+</td>
+<td align="right">480,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>24
+</td>
+<td>森
+</td>
+<td><a href="/wiki/Mori" title="Mori">Mori</a>
+</td>
+<td align="right">470,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>25
+</td>
+<td>阿部
+</td>
+<td><a href="/wiki/Abe_(surname)" title="Abe (surname)">Abe</a>
+</td>
+<td align="right">470,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>26
+</td>
+<td>池田
+</td>
+<td><a href="/wiki/Ikeda_(surname)" title="Ikeda (surname)">Ikeda</a>
+</td>
+<td align="right">450,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>27
+</td>
+<td>橋本
+</td>
+<td><a href="/wiki/Hashimoto_(surname)" title="Hashimoto (surname)">Hashimoto</a>
+</td>
+<td align="right">450,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>28
+</td>
+<td>石川
+</td>
+<td><a href="/wiki/Ishikawa_(surname)" title="Ishikawa (surname)">Ishikawa</a>
+</td>
+<td align="right">440,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>29
+</td>
+<td>山下
+</td>
+<td><a href="/wiki/Yamashita" title="Yamashita">Yamashita</a>
+</td>
+<td align="right">410,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>30
+</td>
+<td>小川
+</td>
+<td><a href="/wiki/Ogawa" title="Ogawa">Ogawa</a>
+</td>
+<td align="right">410,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>31
+</td>
+<td>石井
+</td>
+<td><a href="/wiki/Ishii" title="Ishii">Ishii</a>
+</td>
+<td align="right">400,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>32
+</td>
+<td>長谷川
+</td>
+<td><a href="/wiki/Hasegawa" title="Hasegawa">Hasegawa</a>
+</td>
+<td align="right">390,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>33
+</td>
+<td>後藤
+</td>
+<td><a href="/wiki/Goto_(name)" class="mw-redirect" title="Goto (name)">Gotō</a>
+</td>
+<td align="right">390,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>34
+</td>
+<td>岡田
+</td>
+<td><a href="/wiki/Okada" title="Okada">Okada</a>
+</td>
+<td align="right">380,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>35
+</td>
+<td>近藤
+</td>
+<td><a href="/wiki/Kond%C5%8D" title="Kondō">Kondō</a>
+</td>
+<td align="right">370,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>36
+</td>
+<td>前田
+</td>
+<td><a href="/wiki/Maeda_(disambiguation)" class="mw-redirect mw-disambig" title="Maeda (disambiguation)">Maeda</a>
+</td>
+<td align="right">370,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>37
+</td>
+<td>藤田
+</td>
+<td><a href="/wiki/Fujita" title="Fujita">Fujita</a>
+</td>
+<td align="right">370,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>38
+</td>
+<td>遠藤
+</td>
+<td><a href="/wiki/End%C5%8D" title="Endō">Endō</a>
+</td>
+<td align="right">360,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>39
+</td>
+<td>青木
+</td>
+<td><a href="/wiki/Aoki_(surname)" title="Aoki (surname)">Aoki</a>
+</td>
+<td align="right">350,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>40
+</td>
+<td>坂本
+</td>
+<td><a href="/wiki/Sakamoto" title="Sakamoto">Sakamoto</a>
+</td>
+<td align="right">350,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>41
+</td>
+<td>村上
+</td>
+<td><a href="/wiki/Murakami_(name)" title="Murakami (name)">Murakami</a>
+</td>
+<td align="right">340,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>42
+</td>
+<td>太田
+</td>
+<td><a href="/wiki/%C5%8Cta_(disambiguation)" class="mw-redirect mw-disambig" title="Ōta (disambiguation)">Ōta</a>
+</td>
+<td align="right">320,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>43
+</td>
+<td>金子
+</td>
+<td><a href="/wiki/Kaneko_(surname)" title="Kaneko (surname)">Kaneko</a>
+</td>
+<td align="right">310,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>44
+</td>
+<td>藤井
+</td>
+<td><a href="/wiki/Fujii" title="Fujii">Fujii</a>
+</td>
+<td align="right">310,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>45
+</td>
+<td>福田
+</td>
+<td><a href="/wiki/Fukuda" title="Fukuda">Fukuda</a>
+</td>
+<td align="right">300,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>46
+</td>
+<td>西村
+</td>
+<td><a href="/wiki/Nishimura" title="Nishimura">Nishimura</a>
+</td>
+<td align="right">300,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>47
+</td>
+<td>三浦
+</td>
+<td><a href="/wiki/Miura_(surname)" title="Miura (surname)">Miura</a>
+</td>
+<td align="right">300,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>48
+</td>
+<td>竹内
+</td>
+<td><a href="/wiki/Takeuchi" title="Takeuchi">Takeuchi</a>
+</td>
+<td align="right">290,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>49
+</td>
+<td>中川
+</td>
+<td><a href="/wiki/Nakagawa_(surname)" title="Nakagawa (surname)">Nakagawa</a>
+</td>
+<td align="right">290,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+<tr>
+<td>50
+</td>
+<td>岡本
+</td>
+<td><a href="/wiki/Okamoto_(disambiguation)" class="mw-redirect" title="Okamoto (disambiguation)">Okamoto</a>
+</td>
+<td align="right">290,000
+</td>
+<td style="text-align:center;">—
+</td></tr>
+</tbody></table>
+<p> 
+</p>
+</td></tr></tbody></table>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="https://namsor.app/" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>Most common Japanese given names</h2>
+									<p>Here are the most frequent names given to babies in Japan in 2020 <br />
+									according to nippon.com</p>
+								</header>
+
+<table>
+<tbody>
+<tr>
+<th></th>
+<th>Male Japanese names</th>
+<th>Female Japanese names</th>
+</tr>
+<tr>
+<td class="second_color">1</td>
+<td>Haruto</td>
+<td>Honoka</td>
+</tr>
+<tr>
+<td class="second_color">2</td>
+<td>Minato</td>
+<td>Akari</td>
+</tr>
+<tr>
+<td class="second_color">3</td>
+<td>Haruki</td>
+<td>Himari</td>
+</tr>
+<tr>
+<td class="second_color">4</td>
+<td>Sōta</td>
+<td>Mei</td>
+</tr>
+<tr>
+<td class="second_color">5</td>
+<td>Yūto</td>
+<td>Ema</td>
+</tr>
+<tr>
+<td class="second_color">6</td>
+<td>Riku</td>
+<td>Yui</td>
+</tr>
+<tr>
+<td class="second_color">7</td>
+<td>Yuito</td>
+<td>Mio</td>
+</tr>
+<tr>
+<td class="second_color">8</td>
+<td>Aoto</td>
+<td>Ichika</td>
+</tr>
+<tr>
+<td class="second_color">9</td>
+<td>Aoi</td>
+<td>Aoi</td>
+</tr>
+<tr>
+<td class="second_color">10</td>
+<td>Hinata</td>
+<td>Tsumugi</td>
+</tr>
+</tbody>
+</table>
+
+								<p class="content">As there are multiple original Kanji names (including variants) for a same romanized name, the order differs when looking at the most frequent male Japanese name or the most frequent female Japanese name. </p>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="https://namsor.app/" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+<table>
+<tbody>
+<tr>
+<th></th>
+<th colspan="2">Male Japanese names</th>
+<th colspan="2">Female Japanese names</th>
+</tr>
+<tr>
+<th></th>
+<th></th>
+<th>Main variant</th>
+<th></th>
+<th>Main variant</th>
+</tr>
+<tr>
+<td class="second_color">1</td>
+<td>蓮</td>
+<td>Ren</td>
+<td>陽葵</td>
+<td>Himari</td>
+</tr>
+<tr>
+<td class="second_color">2</td>
+<td>陽翔</td>
+<td>Haruto</td>
+<td>芽依</td>
+<td>Mei</td>
+</tr>
+<tr>
+<td class="second_color">3</td>
+<td>湊</td>
+<td>Minato</td>
+<td>陽菜</td>
+<td>Hina</td>
+</tr>
+<tr>
+<td class="second_color">4</td>
+<td>悠真</td>
+<td>Yūma</td>
+<td>結愛</td>
+<td>Yua</td>
+</tr>
+<tr>
+<td class="second_color">5</td>
+<td>蒼</td>
+<td>Sō</td>
+<td>結菜</td>
+<td>Yūna</td>
+</tr>
+<tr>
+<td class="second_color">6</td>
+<td>樹</td>
+<td>Itsuki</td>
+<td>さくら</td>
+<td>Sakura</td>
+</tr>
+<tr>
+<td class="second_color">7</td>
+<td>大翔</td>
+<td>Hiroto</td>
+<td>あかり</td>
+<td>Akari</td>
+</tr>
+<tr>
+<td class="second_color">8</td>
+<td>颯</td>
+<td>Sō</td>
+<td>葵</td>
+<td>Aoi</td>
+</tr>
+<tr>
+<td class="second_color">9</td>
+<td>大和</td>
+<td>Yamato</td>
+<td>紬</td>
+<td>Tsumugi</td>
+</tr>
+<tr>
+<td class="second_color">10</td>
+<td>湊斗</td>
+<td>Minato</td>
+<td>莉子</td>
+<td>Riko</td>
+</tr>
+<tr>
+<td class="second_color">10</td>
+<td>碧</td>
+<td>Aoi</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Installing the open source server, or using the Open API ?</h2>
+									<p>You can install the open source translation server and host it yourself, or you can use the Open API. The latter is recommended for users who would like to directly use the service without any IT maintenance effort.</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="https://github.com/namsor/japanese-names-trans" class="button primary">Download from GitHub</a></li>
+										<li><a href="https://namsor.app/api-documentation.html#namsor-api-japanese" class="button">Try the Open API</a></li>
+									</ul>
+								</footer>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>About NamSor</h2>
+							<p>
+								NamSor™ Applied Onomastics is a European vendor of sociolinguistics software (NamSor sorts names). NamSor mission is to help understand international flows of money, ideas and people.
+							</p>
+							<ul class="actions">
+								<li><a href="https://namsor.app/" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Contact</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>65, Rue de la Paroisse 78000 Versailles France</dd>
+								<dt>Email</dt>
+								<dd><a href="#">contact (at) namsor.com</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="https://twitter.com/namsor_com" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="https://github.com/namsor" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; NamSor 2022. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
